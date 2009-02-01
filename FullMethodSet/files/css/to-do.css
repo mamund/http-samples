@@ -1,0 +1,74 @@
+/* 2009-01-30 (mca) : to-do.css */
+
+body
+{
+  font-family:Serif;
+  margin:1em;
+  padding:0;
+}
+div#message-list,
+div#message-add,
+div#footer
+{
+  margin:1em 0;
+}
+div#message-add
+{
+  width:450px;
+}
+
+h1,h2,h3,h4,h5
+{
+  font-family:Sans-Serif;
+  margin:0;
+}
+p
+{
+  margin:0;
+}
+dt
+{
+  display:block;
+  margin:0;
+  padding:0;
+}
+dd
+{
+  padding:0;
+  margin: .2em 0 1em 0;
+  
+}
+dd a
+{
+  color:black;
+}
+form
+{
+  margin:0;
+}
+legend
+{
+  font-family:Sans-serif;
+  font-weight:bold;
+  color:black;
+}
+form.delete-form input
+{
+  font-size:x-small;
+}
+.refresh-link,
+.return-link
+{
+  font-weight:bold;
+}
+.return-link a,
+.refresh-link a
+{
+  color:black;
+  font-family:Sans-serif;
+}
+.last-updated
+{
+  font-style:italic;
+  font-size:small;
+}

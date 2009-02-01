@@ -1,0 +1,10 @@
+D:\Projects\HTTPSamples\FullMethodSet\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Amundsen.Utilities.dll
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Mvp.Xml.dll
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Mvp.Xml.pdb
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Mvp.Xml.xml
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Amundsen.Utilities.pdb
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Amundsen.HTTPSamples.FullMethodSet.dll
+D:\Projects\HTTPSamples\FullMethodSet\bin\Debug\Amundsen.HTTPSamples.FullMethodSet.pdb
+D:\Projects\HTTPSamples\FullMethodSet\obj\Debug\Amundsen.HTTPSamples.FullMethodSet.dll
+D:\Projects\HTTPSamples\FullMethodSet\obj\Debug\Amundsen.HTTPSamples.FullMethodSet.pdb
