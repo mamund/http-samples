@@ -67,7 +67,7 @@
       </a>
     </dt>
     <dd>
-      <form name="delete-form-{s:Id}" class="delete-form" action="./" method="get"  rel="delete" delete="{s:Id}"  refresh="/{$root}/" style="display:none;">
+      <form name="delete-form" class="delete-form" action="{s:Id}" method="get" rel="delete" refresh="/{$root}/" style="display:none;">
         <input type="submit" value="Delete" />
       </form>
     </dd>

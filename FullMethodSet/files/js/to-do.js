@@ -12,8 +12,10 @@ var todo = function()
   {
     var coll,i,elm,flag;
 
+    // can we ajax today?
     flag = ajax.supportsXMLHttpRequest();
     
+    // update delete forms
     coll = document.getElementsByTagName('form');  
     for(i=0;i<coll.length;i++)
     {
@@ -27,6 +29,7 @@ var todo = function()
       }
     }
     
+    // hide refresh if nothing is in the list
     coll = document.getElementsByTagName('dt');
     if(coll.length==0)
     {
@@ -37,6 +40,7 @@ var todo = function()
       }
     }
 
+    // set focus to the one input box on the page
     elm = document.getElementsByName('message')[0];
     if(elm)
     {
@@ -51,10 +55,9 @@ var todo = function()
     
     formName = this.getAttribute('name');
     refreshUrl = this.getAttribute('refresh');
-    del = this.getAttribute('delete');
     
 	  ajax.showStatus=false;
-    ajax.httpDeleteForm(del, null, deleteCallback, false, refreshUrl);
+    ajax.httpDeleteForm(null, null, deleteCallback, false, refreshUrl,formName);
     
     return false;        
   }
