@@ -14,9 +14,9 @@ var todo = function()
 
     // can we ajax today?
     flag = ajax.supportsXMLHttpRequest();
-    
+
     // update delete forms
-    coll = document.getElementsByTagName('form');  
+    coll = document.getElementsByTagName('form');
     for(i=0;i<coll.length;i++)
     {
       if(coll[i].className.indexOf('delete-form')!=-1)
@@ -28,7 +28,7 @@ var todo = function()
         }
       }
     }
-    
+
     // hide refresh if nothing is in the list
     coll = document.getElementsByTagName('dt');
     if(coll.length==0)
@@ -46,32 +46,29 @@ var todo = function()
     {
       elm.focus();
     }
-    
   }
 
   function deleteItem()
   {
     var formName,refreshUrl;
-    
+
     formName = this.getAttribute('name');
     refreshUrl = this.getAttribute('refresh');
-    
+
 	  ajax.showStatus=false;
     ajax.httpDeleteForm(null, null, deleteCallback, false, refreshUrl,formName);
-    
-    return false;        
+
+    return false;
   }
-  
+
   function deleteCallback(response,headers,context,status,msg)
   {
     location.href=context
     return false;
-  }  
-  
+  }
+
+  // public interface
   var that = {};
   that.init = init;
   return that;
 }
-
-
-
